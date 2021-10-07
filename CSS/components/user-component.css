@@ -1,4 +1,8 @@
-.usercomponet,
+.user-component {
+  justify-content: space-between;
+}
+
+.user-component,
 .user-component__column:first-child {
   display: flex;
   align-items: center;
@@ -18,4 +22,14 @@
   font-size: 17px;
   margin-top: 8px;
   color: rgba(0, 0, 0, 0.3);
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
