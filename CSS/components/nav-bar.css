@@ -32,3 +32,8 @@
   border-radius: 3px;
   left: 30px;
 }
+
+.nav__functionupdate--modifier {
+  left: -5px;
+  top: -3px;
+}
